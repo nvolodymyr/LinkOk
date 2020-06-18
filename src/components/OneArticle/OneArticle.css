@@ -1,0 +1,28 @@
+.abstract {
+    width: 100%;
+    font-size: 30px;
+    color: dimgrey;
+    font-style: italic;
+    font-family: "Arial Narrow MS";
+}
+.abstract-link {
+    margin-left: 20px;
+    font-size: 30px;
+    color: cadetblue;
+}
+.abstract-link:hover {
+   background-color: #03c0f9;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.more {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+a:hover{
+    text-decoration: none;
+}

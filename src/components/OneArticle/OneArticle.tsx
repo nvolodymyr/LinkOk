@@ -16,8 +16,6 @@ function  OneArticle ({articles, match}:PropsFromRedux & any){
     return (
         <div>
             <div className="abstract">{listItem.abstract}</div>
-            {/*<a >More info ...</a>*/}
-
             <button className="ui button more"><a href={listItem.url}>Click here</a></button>
         </div>
     );

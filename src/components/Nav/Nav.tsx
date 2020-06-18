@@ -5,7 +5,6 @@ import {RootState} from "../../store";
 import './Nav.css';
 import {signOut} from "../../store/actions/getUser";
 
-
 const mapStateToProps = (state: RootState) => ({
     user: state.auth.user
 });
@@ -39,6 +38,5 @@ function Nav({user, onSignOut}: PropsFromRedux) {
         </nav>
     );
 }
-
 
 export default connector(Nav);

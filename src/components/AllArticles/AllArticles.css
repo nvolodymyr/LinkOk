@@ -5,12 +5,16 @@ div {
     display: flex;
     flex-direction: column;
 }
+
 .articles-container li {
     margin-top: 5px;
     width: 100%;
 }
+
 .articles-container li a {
     width: 100%;
 }
+
 .articles-container li a:hover {
-background-color: red}
+background-color: red;
+}

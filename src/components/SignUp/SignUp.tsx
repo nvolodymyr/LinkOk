@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import './SignUp.css';
 import { signUp } from '../../store/actions/getUser';
 import { ISignUp } from '../../models/credential';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const validationSchema = Yup.object().shape({
     name: Yup.string()

@@ -21,12 +21,9 @@ function Nav({user, onSignOut}: PropsFromRedux) {
     return (
         <nav>
             <ul>
-
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/articles'>Articles</Link></li>
                     <li><Link to='/sign-in'>Sign In</Link></li>
-
-
                 {user ? (
                     <li onClick={onSignOut}>
                         <Link to='/'>Sing Out </Link>
